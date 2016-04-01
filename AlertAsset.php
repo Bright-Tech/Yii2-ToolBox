@@ -2,7 +2,7 @@
 /**
  * @author Sam Xiao
  */
-namespace bright\theme\yii2\aceadmin;
+namespace bright\yii2\toolbox;
 
 use yii\web\AssetBundle;
 
@@ -14,36 +14,19 @@ use yii\web\AssetBundle;
 class AlertAsset extends AssetBundle
 {
 
-    public $sourcePath = '@vendor/bright-tech/yii2-ace-admin-theme/assets';
+    public $sourcePath = '@vendor/bright-tech/yii2-toolbox/assets';
     
-    public $jsOptions = [
-        'position' => \yii\web\View::POS_HEAD
-    ];
     
     public $css = [
-        'css/font-awesome.css',
-        'css/ace-fonts.css',
-        'css/ace.css',
+        'css/alert.css',
     ];
     
     public $js = [
-        'js/fuelux/fuelux.tree.js',
-        'js/fuelux/fuelux.spinner.js',
-        'js/ace/elements.scroller.js',
-        'js/ace/elements.colorpicker.js',
-        'js/ace/elements.fileinput.js',
-        'js/ace/elements.typeahead.js',
-        'js/ace/elements.spinner.js',
-        'js/ace/elements.treeview.js',
-        'js/ace/elements.aside.js',
-        'js/ace/ace.js',
-        'js/ace/ace.sidebar.js',
-        'js/ace/ace.sidebar-scroll-1.js',
-        'js/json2.js',
+        'js/alert.js',
     ];
 
     public $depends = [
-        'yii\web\YiiAsset',
-        'bright\theme\yii2\aceadmin\BootstrapAsset'
+        'yii\web\JqueryAsset',
+        'bright\yii2\toolbox\BootstrapAsset'
     ];
 }
