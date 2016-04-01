@@ -1,8 +1,8 @@
 {
-    "name": "bright-tech/yii2-ace-admin-theme",
-    "description": "为Yii2 开发的 Ace-Admin主题组件库",
+    "name": "bright-tech/yii2-toolbox",
+    "description": "为Yii2 开发的 组件库",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","ace-admin"],
+    "keywords": ["yii2","extension"],
     "license": "GNU GENERAL PUBLIC LICENSE",
     "authors": [
         {
