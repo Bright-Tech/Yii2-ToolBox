@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAM;EACF,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,IAAI;EACX,sBAAsB,EAAE,GAAG;EAC3B,uBAAuB,EAAE,GAAG;EAC5B,GAAG,EAAE,GAAG",
+"sources": ["../../sass/alert.scss"],
+"names": [],
+"file": "alert.css"
+}
