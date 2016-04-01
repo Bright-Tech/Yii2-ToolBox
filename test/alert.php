@@ -27,7 +27,7 @@
     <script src="../assets/js/alert.js"></script>
     <script type="text/javascript">
 
-  		AlertMessage.show();
+  		AlertMessage.showSuccess("This is a test message.");
     </script>
   </body>
 </html>
