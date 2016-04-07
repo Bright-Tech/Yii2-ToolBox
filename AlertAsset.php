@@ -27,6 +27,6 @@ class AlertAsset extends AssetBundle
 
     public $depends = [
         'yii\web\JqueryAsset',
-        'yii\bootstrap\BootstrapPluginAsset'
+        'yii\bootstrap\BootstrapAsset'
     ];
 }
